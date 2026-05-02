@@ -1,0 +1,12 @@
+# Auto-normalize line endings for all text files
+* text=auto
+
+# Force these files to always use LF (good for scripts)
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Optional: Binary files (just in case)
+*.png binary
+*.jpg binary
+*.svg binary
+*.ico binary
