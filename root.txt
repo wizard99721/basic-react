@@ -1,0 +1,38 @@
+#: npm create vite@latest test-app
+
+--------
+
+Settings: CTRL,SHIFT,P -> Open Settings User Json
+
+{
+  "workbench.colorTheme": "Dark Modern",
+  "python.createEnvironment.trigger": "off",
+  "prettier.useTabs": false,
+  "prettier.tabWidth": 2,
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+}
+
+--------
+
+Git Attributes for future projects.
+
+# Auto-normalize line endings for all text files
+* text=auto
+
+# Force these files to always use LF (good for scripts)
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Optional: Binary files (just in case)
+*.png binary
+*.jpg binary
+*.svg binary
+*.ico binary
